@@ -1,0 +1,104 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center;
+}
+
+.hero {
+  background: url('images/bucketlist-bg.jpg') no-repeat center center/cover;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.hero h1 {
+  font-size: 2.8em;
+}
+
+.hero p {
+  font-size: 1.5em;
+}
+
+.bucket-list {
+  padding: 50px;
+}
+
+.bucket-list h2 {
+  font-size: 2.5em;
+  color: #4a2c2a;
+  margin-bottom: 20px;
+}
+
+.list-items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.category {
+  background: #f1e3d3;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.category h3 {
+  color: #5c3d2e;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+li i {
+  color: #4CAF50;
+  margin-right: 10px;
+  font-size: 1.3em;
+}
+
+.category:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+  background: #5c3d2e;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+@media (max-width: 900px) {
+  .category {
+      width: 45%;
+  }
+}
+
+@media (max-width: 600px) {
+  .category {
+      width: 100%;
+  }
+}
