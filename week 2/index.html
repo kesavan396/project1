@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coffee Slider</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="slider-container">
+    <div class="slider">
+      <div class="slide active">
+        <img src="image/espresso.jpg" alt="Espresso" />
+        <div class="caption">Espresso</div>
+      </div>
+      <div class="slide">
+        <img src="image/cappuccino.jpg" alt="Cappuccino" />
+        <div class="caption">Cappuccino</div>
+      </div>
+      <div class="slide">
+        <img src="image/latte.jpg" alt="Latte" />
+        <div class="caption">Latte</div>
+      </div>
+    </div>
+
+    <button class="prev-btn" aria-label="Previous">❮</button>
+    <button class="next-btn" aria-label="Next">❯</button>
+
+    <div class="thumbnails">
+      <img src="image/espresso.jpg" alt="Espresso" class="thumbnail active" />
+      <img src="image/cappuccino.jpg" alt="Cappuccino" class="thumbnail" />
+      <img src="image/latte.jpg" alt="Latte" class="thumbnail" />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
