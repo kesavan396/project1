@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">ShopEase</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Cart</a></li>
+    </ul>
+  </nav>
+
+  <main class="product-container">
+    <div class="product-image">
+      <img id="main-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlTtrTxOZasokem3Ohs2g3obihdNPWqXWetA&s" alt="Portable Projector">
+    </div>
+    <div class="product-details">
+      <h1>Portable Mini Projector</h1>
+      <p class="description">
+        Enjoy cinema-quality entertainment on the go. Compact, powerful, and perfect for travel or home use.
+      </p>
+      <p class="price">$199.99</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+  </main>
+
+  <section class="related-products">
+    <h2>Related Products</h2>
+    <div class="product-grid">
+      <div class="related-item">
+        <img src="https://t3.ftcdn.net/jpg/01/97/91/02/360_F_197910285_mc5CAk9Q6qRPOo1jdgqCkswdVL8JeAJG.jpg" alt="Projection Screen">
+        <p>Projection Screen</p>
+      </div>
+      <div class="related-item">
+        <img src="https://d3dxkzk9npnkec.cloudfront.net/uploads/images/202404/img_x500_661570804b02e2-63513361-39247169.webp" alt="Wireless HDMI Adapter">
+        <p>Wireless HDMI Adapter</p>
+      </div>
+      <div class="related-item">
+        <img src="https://studiobackdrops.com/wp-content/uploads/2024/10/AriesX-Ace-Professional-Camera-Tripod-Stand-D-777K-8.jpg" alt="Tripod Stand">
+        <p>Tripod Stand</p>
+      </div>
+    </div>
+  </section>
+
+  <div id="image-modal" class="modal">
+    <span class="close-btn">&times;</span>
+    <img class="modal-content" id="modal-img">
+  </div>
+
+  <div class="cart">
+    🛒 <span id="cart-count">0</span>
+  </div>
+
+  <script src="script.js"></script>
+
+<section class="customer-reviews">
+  <h2>Customer Reviews</h2>
+  <div class="review">
+    <p class="review-text">"Amazing projector! Clear picture and easy to carry around."</p>
+    <p class="reviewer">- Alex</p>
+  </div>
+  <div class="review">
+    <p class="review-text">"Great value for the price. Works perfectly for my home theater setup."</p>
+    <p class="reviewer">- Raj </p>
+  </div>
+  <div class="review">
+    <p class="review-text">"Compact, portable, and bright enough for outdoor movies. Highly recommend!"</p>
+    <p class="reviewer">- Ravi</p>
+  </div>
+</section>
+
+</body>
+</html>
